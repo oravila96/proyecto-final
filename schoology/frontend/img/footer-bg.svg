@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="448px" viewBox="0 0 1024 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Footer Background Texture</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="531"></rect>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SGY-Homepage-Large" transform="translate(0.000000, -4117.000000)">
+            <g id="Footer-Background-Texture" transform="translate(0.000000, 4117.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" opacity="0.547879464" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" id="Rectangle">
+                    <g transform="translate(512.000000, 372.000000) scale(-1, -1) translate(-512.000000, -372.000000) translate(0.000000, -673.000000)">
+                        <polygon fill="#0677BA" points="0 760 1024 760 1024 1517.03825 0 1997"></polygon>
+                        <polygon fill="#FFFFFF" opacity="0.098901721" points="0 1713.82241 1024 1230 1024 1609.9015 0 2090"></polygon>
+                        <polygon fill="#FFFFFF" opacity="0.0299999993" points="0 1365.82241 1024 882 1024 1261.9015 0 1742"></polygon>
+                        <polygon fill="#FFFFFF" opacity="0.0892776268" points="0 833.822405 1024 350 1024 929.9015 0 1410"></polygon>
+                        <polygon fill="#FFFFFF" opacity="0.0522531703" points="0 483.822405 1024 0 1024 579.9015 0 1060"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

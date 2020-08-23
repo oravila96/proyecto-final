@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicie sesión en Schoology</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://www.schoology.com/sites/default/files/favicon_0.ico"
+    type="image/vnd.microsoft.icon" />
+</head>
+
+<body>
+
+    <div style="background-color: #0677BA; width: 100%; height: 5vw;">
+       <a href="index.html"> <img style="padding-left: 15vw;padding-top: 1.5vw;" src="img/header-logo-transparent.png" alt=""></a>
+    </div>
+
+    <div
+        style="text-align: center; width: 100%;height: 33vw;padding-left: 35vw;padding-top: 2vw;background-color: #F9F9F8;">
+        <section style="height: 18vw;background-color: white;width: 30vw;padding-top: 2vw;margin-top: 1.5vw;">
+
+            <span style="padding-right: 11vw;font-family: 'Open Sans', sans-serif;color: black;font-size: 18px;">Iniciar
+                sesión en Schoology</span><br>
+            <span
+                style="padding-right: 12.5vw;font-family: 'Open Sans', sans-serif;color: #B1C7E9;font-size: 13px;">Todos
+                los campos son obligatorios</span>
+
+            <form style="margin-top: 1vw;padding-right: 4vw;">
+                <input style="width: 23vw;border: 1px solid #EEEEEE;" id="email" type="text"
+                    placeholder=" Correo electrónico o nombre de usuario"><br>
+                <input style="width: 23vw;margin-top: 1vw;border: 1px solid #EEEEEE;margin-bottom: 1vw;" id="password"
+                    type="password" placeholder=" Contraseña"><br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <button class="btn btn-primary" style="background-color: #0677BA;"
+                                type="button" onclick="login()"><b>Iniciar Sesión</b></button>
+                        </div>
+                        <div class="col-xl-6">
+                            <span style="font-size: 14px;"><a href="https://app.schoology.com/login/forgot">Olvidaste tu contraseña</a></span>
+                            <span style="font-size: 15px;padding-left: 1vw;"><a href="">Inicio de sesión SSO</a></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="alert alert-danger" id="error" style="display: none;"></div>
+
+            </form>
+        </section><br>
+        <span style="padding-right: 37vw;">o</span><br>
+        <div class="container" style="margin-top: 1vw;">
+            <div class="row">
+                <div class="col-xl-3" style="padding-left: 4vw;">
+                    <img style="padding-right: 25vw;" src="img/qr-scan-sample.png" alt="">
+                </div>
+                <div class="col-xl-3" style="padding-right: 3vw;">
+                    <span style="font-family: 'Open Sans', sans-serif;"><a href="https://app.schoology.com/login/qr?lang=en-US"><b>Escanear código QR</b></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+
+    <div style="background-color: #EEEEEE;height: 13vw;padding-top: 4vw;padding-left: 14vw;">
+        <span style="font-size: 13px;">Schoology © 2020</span>
+        <span><a style="color: #556370;font-size: 14px;margin-left: 1vw;" href="https://www.schoology.com/privacy"><b>POLÍTICA DE PRIVACIDAD ·</b></a></span>
+        <span><a style="color: black;font-size: 13px;" href="https://www.schoology.com/terms-of-use">Condiciones de uso </a></span>
+        <span><a style="color: black;font-size: 13px;margin-left: 1vw;" href="https://support.schoology.com/hc/en-us">Centro de ayuda</a></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/controlador-usuarios.js"></script>
+</body>
+
+</html>

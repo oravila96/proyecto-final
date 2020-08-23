@@ -1,0 +1,428 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+.bg-light{
+    background-color: #FFFFFF!important;
+}
+.logo{
+    width: 190px;
+    margin-left: 10px;
+    
+    
+}
+.navbar-expand-lg{
+    height: 10vh;
+}
+.navbar-nav{
+    color:#1F1F1F;
+}
+.Excursión{
+    text-decoration: underline;
+}
+.nav-link active:hover{
+    color: #068CD1!important;
+}
+.Excursión:hover{
+    color: #068CD1!important;
+    text-decoration: underline;
+}
+.hover:hover{
+    color: #068CD1!important;
+}
+.inicio{
+    color: #4d4b4b;
+    padding-top: 8px;
+    margin-left: 12vh;
+    
+}
+.simbolo{
+    color: #4d4b4b;
+    padding-top: 9px;
+    font-size: 12px;
+    
+    
+}
+.registro{
+    color: #4d4b4b;
+    padding-top: 8px;
+    
+    
+}
+.inicio:hover{
+    text-decoration: none;
+}
+.registro:hover{
+    text-decoration: none;
+}
+.btn-primary{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #0677BA;
+    color: white;
+    font-size: 13px;
+    
+    
+}
+.btn{
+    border-radius: 10vh;
+    height: 6vh;
+    text-align: center;
+    
+    padding-left: 4vh;
+    padding-right: 4vh;
+    height: 5vh;
+    margin-top: 3px;
+    
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #0677BA;
+}
+.div{
+    text-align: center;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    
+}
+.menu{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0%;
+    background-color: white;
+    color: black;
+    
+    
+}
+
+#menu{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    height: 8vh;
+    color:#686767;
+    margin-bottom: 1vh;
+
+}
+.boton{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #F1F1F1!important;
+}
+#parrafo{
+    text-align: center;
+    margin-top: 33vh;
+    box-sizing: border-box;
+    padding-top: 10vw;
+    
+    
+   
+    
+}
+#palabra{
+    font-size: 4vh;
+    color: #48AFEC;
+    font-family: 'Signika', sans-serif;
+}
+.letra{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 3cm;
+}
+.utilizarán realmente{
+    box-sizing: border-box;
+}
+.p1{
+    color: #48afec;
+    font-family: "signikanegativebold",serif;
+    font-size: 2.125rem;
+    height: 0.5cm;
+    
+}
+.p2{
+    color: #48afec;
+    font-family: "signikanegativebold",serif;
+    font-size: 2.125rem;
+    margin-top: 1vh;
+}
+#image2{
+    width: 11cm;
+    height: 8cm;
+    margin-top: 4cm;
+    text-align: left;
+}
+#p3{
+    text-align: left;
+    margin-left: 2cm;
+    height: 6px;
+}
+.p4{
+    margin-left: 3cm;
+    background-color: white;
+    width: 11cm;
+    padding-top: 3vh;
+    margin-top: 1.5cm;
+    height: 4cm;
+    margin-bottom: 2cm;
+    
+    
+}
+.p5{
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-left: 0.5cm;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 6px;
+}
+.encabezado{
+    text-align: center;
+    box-sizing: border-box;
+    color: #48AFEC;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    height: 10vh;
+}
+.aplicacion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    height: 5px;
+}
+.card{
+    width: 4.4cm!important;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.encabezado2{
+    font-family: 'Signika', sans-serif;
+    font-size: 2.125rem;
+    margin-left: 0.8cm;
+}
+.p6{
+    height: 5px;
+    color: white;
+}
+.div5{
+    height: 11cm;
+}
+.boton2{
+    color: white!important;
+    height: 3vh;
+   
+}
+.boton2:hover{
+    background-color: white;
+    color: #808487;
+}
+.p7{
+    height: 8px;
+}
+.pa6{
+    padding-left: 1.5cm;
+}
+.pa7{
+    padding-left: 2cm;
+}
+.parrafo7{
+    height: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 0.5cm;
+    
+}
+#im{
+    height: 17px;
+}
+#com{
+    height: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.05rem;
+}
+#imagen1{
+   padding-right: 4cm;
+}
+.parrafo8{
+    height: 14px;
+    font-family: 'Signika', sans-serif;
+}
+.p9{
+    height: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 0.5cm;
+}
+.fondo{
+   background-image: url('../img/CityScape-Tablet-k12.png');
+   width: 100%;
+   height: 17cm;
+   background-size: cover;
+   background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  
+}
+#l{
+    font-size: 2rem;
+    height: 21px;
+    color: #48AFEC;
+    font-family: 'Signika', sans-serif;
+}
+.fondo2{
+    background-image: url('../img/tour-k12-mountain-desktop.png');
+    width: 100%;
+   height: 21.5cm;
+   background-color: #75BFF4;
+  background-position: center;
+  padding-top: 2cm;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#col1{
+    background-color: #F3923F;
+    height: 4cm;
+    width: 13.5cm;
+}
+#col2{
+    background-color: #D3721F;
+    height: 3cm;
+    width: 13.5cm;
+}
+.parrafito{
+    color: white;
+    height: 1px;
+    padding-top: 0.5cm;
+    padding-left: 0.5cm;
+  
+}
+#col3{
+    background-color: #B35200;
+    width: 13.5cm; 
+    height: 3cm;
+}
+#col4{
+    background-color: #48AFEC;
+    height: 4cm;
+    width: 13.5cm;
+}
+#col5{
+    
+        background-color: #288FCC;
+        height: 3cm;
+        width: 13.5cm;
+    
+}
+#aboton{
+    background-color: #D3721F;
+    color: white;
+    margin-top: 1cm;
+    margin-bottom: 1CM;
+    width: 5cm;
+    border-radius: 1CM;
+    height: 1.6cm;
+    
+}
+#col6{
+    background-color: #086FAC;
+    width: 13.5cm; 
+    height: 3cm;
+}
+#aboton1{
+    background-color: #4599CC;
+    color: white;
+    margin-top: 1cm;
+    margin-bottom: 1CM;
+    width: 5cm;
+    border-radius: 1CM;
+    height: 1.6cm;
+    
+}
+.last:hover{
+    color: #DBBE24;
+    text-decoration: underline;
+}
+.mm:hover{
+    text-decoration: underline!important;
+}
+
+#boton-nuevo{
+    height: 3cm;
+}
+
+#politica:hover{
+    text-decoration: underline!important;
+}
+#nn:hover{
+    background-color: #48AFEC!important;
+}
+#nm:hover{
+    background-color: #D3721F!important;
+}
+#rr:hover{
+    background-color: white!important;
+    color: #333346!important;
+}
+#ss:hover{
+    background-color: #D3721F!important;
+}
+#back{
+    background-image: url('../img/footer-bg.svg');
+    width: 100%;
+    text-align: left;
+    
+    
+    padding-bottom: 0.5cm!important;  
+}
+
+.navbar-toggler-icon{
+    height: 20px;
+}
+.desplegable{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 0.01px solid rgb(206, 201, 201);
+    height: 4.5cm;
+   
+}
+#schoology{
+    background-color: #0677BA;
+    width: 100%;
+    height: 2cm!important;
+    text-align: center;
+    padding-top: 0.5cm;
+    padding-right: 21cm;
+}
+.cuerpo{
+    height: 12cm;
+    background-color: #F9F9F8;
+    width: 100%;
+    padding-top: 1.5cm;
+    
+}
+.pie{
+    background-color: #EEEEEE!important;
+    width: 100%;
+    height: 4cm;
+}
+.cuerpo-contenido{
+    width: 29vw;
+    height: 18vw;
+    background-color: white;
+    border: 1mm solid white;
+    
+    
+}
+#regi:hover{
+    color: #0056B3!important;
+}
+
+
+
+
+
